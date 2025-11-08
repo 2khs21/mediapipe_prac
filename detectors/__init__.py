@@ -1,5 +1,6 @@
 """
 MediaPipe 기반 감지기 모듈
+
 손 인식, 얼굴 인식, 얼굴 메시 등의 감지기 클래스 제공
 """
 
@@ -8,4 +9,3 @@ from .face_detector import FaceDetector
 from .face_mesh_detector import FaceMeshDetector
 
 __all__ = ['HandDetector', 'FaceDetector', 'FaceMeshDetector']
-
