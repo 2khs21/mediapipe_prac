@@ -1,1 +1,18 @@
-.venv
+# Python 가상환경
+venv/
+.venv/
+
+# Python 캐시 및 컴파일 파일
+__pycache__/
+
+# 환경 변수
+.env
+.env.local
+.envrc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
